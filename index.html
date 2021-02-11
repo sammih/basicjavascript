@@ -10,73 +10,117 @@
 </head>
 <body>
     <div class="mx-auto p-2">
-        <h1 class="text-xl font-bold text-gray-600">Functions</h1>
-        <ul class="text-gray-600 text-sm px-2">
-            <li class="border-8 border-t-0 border-r-0 border-b-0 border-gray-300 h-4  items-center my-1">
-                <p class="px-1">Regular binding where the value of the binding is a function.</p>
-            </li>
-            <li class="border-8 border-t-0 border-r-0 border-b-0 border-gray-300 h-4 flex items-center my-2">
-                <span class="px-1">Group of reusable code which can be called anywhere in your program.</span>
-            </li>
-            </li>
-            <li class="border-8 border-t-0 border-r-0 border-b-0 border-gray-300 h-4 flex items-center my-2">
-                <span class="px-1">A JavaScript function is a block of code designed to perform a particular task.</span>
-            </li>
-        </ul>
-        <div class="my-4">
-            <h1 class="text-lg font-bold text-gray-600">Function Definition</h1>
-            <div class="text-gray-600 pt-2 text-sm w-1/2">
-                <p class="pb-2">A <span class="font-bold text-gray-600">function definition</span> 
-                    (also called a <span class="font-bold text-gray-600">function declaration</span>
-                    , or <span class="font-bold text-gray-600">function statement</span>) consists of the 
-                    <a class="underline text-blue-400" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function">function</a> 
-                    keyword, followed by:</p>
-                    <ul class="h-24 py-3 px-2 border-8 border-t-0 border-r-0 border-b-0 bg-gray-100">
-                        <li class="my-1">
-                            <p class="px-1">The name of the function.</p></li>
-                        <li class="my-1">
-                            <p class="px-1">A list of parameters to the function, enclosed in parentheses and separated by commas.</p>
+        <h1 class="text-2xl font-bold text-gray-600 px-4 pb-2">Functions</h1>
+        <div class="flex justify-between mx-auto px-4">
+            <div class="w-1/2 flex justify-center">
+                <div>
+                    <ul class="text-gray-600 text-sm px-2">
+                        <li class="border-8 border-t-0 border-r-0 border-b-0 border-gray-300 h-4  items-center my-1">
+                            <p class="px-1">Regular binding where the value of the binding is a function.</p>
                         </li>
-                        <li class="my-1">
-                            <p class="px-1">The JavaScript statements that define the function, enclosed in curly brackets,<span class="font-bold text-gray-600 tracking-widest"> {...}</span>.</p>
+                        <li class="border-8 border-t-0 border-r-0 border-b-0 border-gray-300 h-4 flex items-center my-2">
+                            <span class="px-1">Group of reusable code which can be called anywhere in your program.</span>
+                        </li>
+                        </li>
+                        <li class="border-8 border-t-0 border-r-0 border-b-0 border-gray-300 h-4 flex items-center my-2">
+                            <span class="px-1">A JavaScript function is a block of code designed to perform a particular task.</span>
                         </li>
                     </ul>
-            </div>
-        <div class="my-4">
-            <h1 class="text-lg font-bold text-gray-600">Javascript Function Syntax</h1>
-            <div class="text-gray-600 pt-2 text-sm">
-                <pre class="h-24 py-4 px-2 border-1 bg-gray-100 w-1/2">
+                    <div class="my-4">
+                        <h1 class="text-lg font-bold text-gray-600">Function Definition</h1>
+                        <div class="text-gray-600 pt-2 text-sm ">
+                            <p class="pb-2">A <span class="font-bold text-gray-600">function definition</span> 
+                                (also called a <span class="font-bold text-gray-600">function declaration</span>
+                                , or <span class="font-bold text-gray-600">function statement</span>) consists of the 
+                                <a class="underline text-blue-400" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function">function</a> 
+                                keyword, followed by:</p>
+                                <ul class="h-24 py-3 px-2 border-8 border-t-0 border-r-0 border-b-0 bg-gray-100">
+                                    <li class="my-1">
+                                        <p class="px-1">The name of the function.</p></li>
+                                    <li class="my-1">
+                                        <p class="px-1">A list of parameters to the function, enclosed in parentheses and separated by commas.</p>
+                                    </li>
+                                    <li class="my-1">
+                                        <p class="px-1">The JavaScript statements that define the function, enclosed in curly brackets,<span class="font-bold text-gray-600 tracking-widest"> {...}</span>.</p>
+                                    </li>
+                                </ul>
+                        </div>
+                        <div class="my-4">
+                            <h1 class="text-lg font-bold text-gray-600">Javascript Function Syntax</h1>
+                            <div class="text-gray-600 pt-2 text-sm">
+                                <pre class="h-24 py-4 px-4 border-1 bg-gray-200 ">
 function square(number) {
     return number * number;
 }
-                </pre>
-                <p class="w-1/2 py-2">The function <span class="bg-gray-100 py-1 px-1">square</span> takes one parameter, called 
-                    <span class="bg-gray-100 py-1 px-1">number</span>. 
-                    The function consists of one statement that says to return the parameter of the function (that is, <span class="bg-gray-100 py-1 px-1">number</span> ) 
-                    multiplied by itself. The statement<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return" class="text-blue-400"> 
-                        return </a>specifies the value returned by the function:</p>
-                        <div class="py-3 px-2 border-8 border-t-0 border-r-0 border-b-0 bg-gray-100 w-1/2 flex items-center h-12">
-return number * number;
+                                </pre>
+                                <p class=" py-2">The function <span class="bg-gray-100 py-1 px-1">square</span> takes one parameter, called 
+                                    <span class="bg-gray-100 py-1 px-1">number</span>. 
+                                    The function consists of one statement that says to return the parameter of the function (that is, <span class="bg-gray-100 py-1 px-1">number</span> ) 
+                                    multiplied by itself. The statement<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return" class="text-blue-400"> 
+                                        return </a>specifies the value returned by the function:</p>
+                                <div class="py-3 px-2 border-8 border-t-0 border-r-0 border-b-0 bg-gray-100  flex items-center h-12">
+            return number * number;
+                                </div>
+                            </div>
                         </div>
-            </div>
-        </div>
-        </ul>
-        <div class="my-4">
-            <h1 class="text-sm font-bold text-gray-600">Example One</h1>
-            <div class="text-gray-400 pt-2 text-sm">Example, the function below adds two numbers and outputs the sum</div>
-        </div>
-        <div class="flex items-center justify-between py-1 px-2 bg-yellow-400 w-1/2">
-            <span class="text-gray-700 text-sm">View code for Example One</span>
-            <span><i class="fa fa-chevron-down text-gray-700 text-sm"></i></span>
-        </div>
-        <div class="code hidden">
-            <pre class="mx-6 mt-4 text-gray-500 text">
+                        <div>
+                            <div class="my-4">
+                                <h1 class="text-sm font-bold text-gray-600">Example One</h1>
+                                <div class="text-gray-400 pt-2 text-sm">Example, the function below adds two numbers and outputs the sum</div>
+                            </div>
+                            <div class="flex items-center justify-between py-1 px-2 bg-yellow-400 ">
+                                <span class="text-gray-700 text-sm">View code for Example One</span>
+                                <span><i class="fa fa-chevron-down text-gray-700 text-sm"></i></span>
+                            </div>
+                            <div class="code hidden">
+                                <pre class="mx-6 mt-4 text-gray-500 text">
 let sum = function(num1, num2) {
     return num1 + num2;
 }
 console.log(sum(8,4));
-            </pre>
-            <div class="text-gray-400 ml-5"># Expected output <i class="fa fa-arrow-right "></i><span class="example-one"></span>
+                                </pre>
+                                <div class="text-gray-400 ml-5"># Expected output <i class="fa fa-arrow-right "></i><span class="example-one"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-1/2 flex justify-center">
+                <div>
+                    <div>
+                        <ul class="text-gray-600 text-sm px-2">
+                            <li class="border-8 border-t-0 border-r-0 border-b-0 border-gray-300 items-center my-1">
+                                <span class="px-1">Function parameters are listed inside the parentheses () in the function definition.</span>
+                            </li>
+                            <li class="border-8 border-t-0 border-r-0 border-b-0 border-gray-300 flex items-center my-2">
+                                <span class="px-1">Function arguments are the values received by the function when it is invoked.</span>
+                            </li>
+                            </li>
+                            <li class="border-8 border-t-0 border-r-0 border-b-0 border-gray-300 flex items-center my-2">
+                                <span class="px-1">Inside the function, the arguments (the parameters) behave as local variables.</span>
+                            </li>
+                        </ul>                    
+                    </div>
+    
+                    <div>
+                        <h1 class="text-2xl font-bold text-gray-600 px-2 pt-4 pb-2">Function Invocation</h1>
+                        <p class="text-gray-600 text-sm px-2">The code inside the function will execute when "something" <b>invokes</b> calls) the function:</p>
+                        <ul class="text-gray-600 text-sm px-2">
+                            <li class="border-8 border-t-0 border-r-0 border-b-0 border-gray-300 items-center my-1">
+                                <span class="px-1">When an event occurs (when a user clicks a button)</span>
+                            </li>
+                            <li class="border-8 border-t-0 border-r-0 border-b-0 border-gray-300 flex items-center my-2">
+                                <span class="px-1">When it is invoked (called) from JavaScript code</span>
+                            </li>
+                            </li>
+                            <li class="border-8 border-t-0 border-r-0 border-b-0 border-gray-300 flex items-center my-2">
+                                <span class="px-1">Automatically (self invoked)</span>
+                            </li>
+                        </ul>                    
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>

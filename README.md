@@ -4,4 +4,4 @@
 **TODO**: Definitions
 **TODO**: Declaration
 **TODO**: Javascript Function Syntax
-**TODO**: Example One:
+**TODO**: Example One
